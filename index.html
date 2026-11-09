@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Youssef — tools and the systems they run on</title>
+    <meta name="description" content="Youssef builds tools and the systems that run them: TypeScript, Rust, Linux, self-hosted infrastructure. Computer science student in Cairo." />
+    <meta name="color-scheme" content="light" />
+    <meta property="og:title" content="Youssef — tools and the systems they run on" />
+    <meta property="og:description" content="TypeScript, Rust, Linux, self-hosted infrastructure. Selected work and the box it runs on." />
+    <meta property="og:type" content="website" />
+    <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+    <link rel="preload" href="fonts/instrument-serif-normal.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href="fonts/space-grotesk-latin.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="wrap">
+      <header class="top">
+        <span class="who">Youssef</span>
+        <nav aria-label="Elsewhere">
+          <span>Cairo, Egypt</span>
+          <a href="https://github.com/youssefvdel">GitHub</a>
+          <a href="mailto:youssefvdel@gmail.com">Email</a>
+        </nav>
+      </header>
+
+      <main>
+        <section class="hero" aria-labelledby="title">
+          <h1 id="title">
+            <span>I build tools,</span>
+            <span>and the systems</span>
+            <span>they run on.</span>
+          </h1>
+          <p>
+            Computer science student at BUE. I write TypeScript and Rust, self-host what I depend on, and spend the
+            rest of the time measuring networks that lie.
+          </p>
+          <p class="where">Second year, BUE · Cairo · building Recon and EveryGate</p>
+        </section>
+
+        <section aria-labelledby="work">
+          <h2 class="label" id="work">
+            <span>Selected work</span>
+            <span>2025—2026</span>
+          </h2>
+
+          <ul class="work">
+            <li>
+              <a href="https://github.com/youssefvdel/Recon">
+                <span class="num">01</span>
+                <span>
+                  <h3>Recon</h3>
+                  <p>Live lobby scouting and in-game HUD widgets for VALORANT — built with Tauri and a TypeScript front end.</p>
+                </span>
+                <span class="meta">2025—26<br />TypeScript, Rust, Tauri</span>
+              </a>
+            </li>
+            <li>
+              <span class="num">02</span>
+              <span>
+                <h3>cantwise</h3>
+                <p>An aim trainer that measures your hand instead of your score: sensor tilt, per-direction gain, virtual sensor offset.</p>
+              </span>
+              <span class="meta">2026<br />Rust · private</span>
+            </li>
+            <li>
+              <span class="num">03</span>
+              <span>
+                <h3>netwatch</h3>
+                <p>Home line-quality evidence — per-second latency, packet loss and the data meter, kept as proof for the ISP.</p>
+              </span>
+              <span class="meta">2026<br />Bun, TypeScript</span>
+            </li>
+            <li>
+              <span class="num">04</span>
+              <span>
+                <h3>EveryGate</h3>
+                <p>Every provider, one gate: an OpenAI-compatible API in front of the chat accounts you already own.</p>
+              </span>
+              <span class="meta">2026<br />TypeScript</span>
+            </li>
+            <li>
+              <span class="num">05</span>
+              <span>
+                <h3>Arkrete</h3>
+                <p>The website and mail stack for a family business — one repository, everything it needs to stay up.</p>
+              </span>
+              <span class="meta">2025—26<br />TypeScript, Go</span>
+            </li>
+            <li>
+              <span class="num">06</span>
+              <span>
+                <h3>The lab</h3>
+                <p>Six services behind one door on a box in the corner, published through a tunnel with no forwarded ports.</p>
+              </span>
+              <span class="meta">2026<br />Linux, Cloudflare</span>
+            </li>
+          </ul>
+        </section>
+
+        <section aria-labelledby="run">
+          <h2 class="label" id="run">
+            <span>What it runs on</span>
+            <span>one box</span>
+          </h2>
+          <dl class="run">
+            <div>
+              <dt>Machine</dt>
+              <dd>HP Z440 · Xeon E5-1650 v3 · 11 GB</dd>
+            </div>
+            <div>
+              <dt>System</dt>
+              <dd>Ubuntu 26.04, one LVM volume</dd>
+            </div>
+            <div>
+              <dt>Served</dt>
+              <dd>six services, one door</dd>
+            </div>
+            <div>
+              <dt>Edge</dt>
+              <dd>Cloudflare tunnel, no open ports</dd>
+            </div>
+            <div>
+              <dt>Behind it</dt>
+              <dd>9Router, SearXNG, Cockpit, noVNC</dd>
+            </div>
+            <div>
+              <dt>Written in</dt>
+              <dd>TypeScript, Rust, Go, a little shell</dd>
+            </div>
+          </dl>
+        </section>
+      </main>
+
+      <footer>
+        <span class="say">Say hi.</span>
+        <nav aria-label="Contact">
+          <a href="mailto:youssefvdel@gmail.com">youssefvdel@gmail.com</a>
+          <a href="https://github.com/youssefvdel">github.com/youssefvdel</a>
+        </nav>
+      </footer>
+    </div>
+  </body>
+</html>
