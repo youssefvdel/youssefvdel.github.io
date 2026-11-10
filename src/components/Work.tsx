@@ -48,14 +48,6 @@ const projects: Project[] = [
     year: '2025–26',
     stack: 'TypeScript · Go',
   },
-  {
-    number: '06',
-    name: 'The lab',
-    blurb: 'Six services behind one TOTP door, published through a tunnel with no open ports.',
-    year: '2026',
-    stack: 'Linux · Cloudflare',
-    href: 'https://app.youssefvdel.dpdns.org',
-  },
 ]
 
 export function Work() {
@@ -69,7 +61,7 @@ export function Work() {
             </h2>
           </div>
           <p className="section-note">
-            <span>Six projects</span>
+            <span>Five projects</span>
             <span>2025–26</span>
           </p>
         </div>
